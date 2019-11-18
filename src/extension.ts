@@ -9,5 +9,5 @@ export function activate(context: vscode.ExtensionContext) {
 	
 
 	// Test View
-	new TestView(context);
+	var a = new TestView(context);
 }
